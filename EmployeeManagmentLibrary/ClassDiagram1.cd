@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="EmployeeManagmentLibrary.EmployeeCreator">
+    <Position X="6" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EmployeeCreator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.19" />
+  </Class>
+  <Class Name="EmployeeManagmentLibrary.EmployeeHandler">
+    <Position X="4" Y="2" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAAEAAABAgAAIAAEAAAAEMCAAQAQAAEBCAQAgAAA=</HashCode>
+      <FileName>EmployeeHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EmployeeManagmentLibrary.Employee">
+    <Position X="7.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAAQAAAAAAAAgAAAIBAAAAAAgQAA=</HashCode>
+      <FileName>EmployeeManagement\Employee.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="EmployeeManagmentLibrary.EmployeeInfo">
+    <Position X="11.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACQEAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>EmployeeManagement\EmployeeInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EmployeeManagmentLibrary.InvalidDataException" Collapsed="true">
+    <Position X="6" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions\InvalidDataException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EmployeeManagmentLibrary.Manager">
+    <Position X="9.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAABAAAQAAAAAAAAgAAAIBAAAAAAgQAA=</HashCode>
+      <FileName>EmployeeManagement\Manager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="EmployeeManagmentLibrary.Salesman">
+    <Position X="11.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAIAAAAAAAAABAAAQAAAAAAAAgAAAIBAAAAAAgQAA=</HashCode>
+      <FileName>EmployeeManagement\Salesman.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.674" />
+  </Class>
+  <Class Name="DatabaseLibrary.Database">
+    <Position X="7.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="DatabaseLibrary.EmployeeEntity">
+    <Position X="6" Y="9.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="EmployeeManagmentLibrary.EmployeeInfoConverter">
+    <Position X="7.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Converters\EmployeeInfoConverter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EmployeeManagmentLibrary.EmployeeEntityConverter">
+    <Position X="9.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Converters\EmployeeEntityConverter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EmployeeManagmentLibrary.User">
+    <Position X="7.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAAgACAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>UserManagement\User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EmployeeManagmentLibrary.UserAuthentication">
+    <Position X="6" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAEIAAAAAAAQgAAAACAAAAAA=</HashCode>
+      <FileName>UserManagement\UserAuthentication.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="EmployeeManagmentLibrary.IEmployee">
+    <Position X="9.5" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAAQAAAAAAAAgAAAABAAAAAAgQAA=</HashCode>
+      <FileName>EmployeeManagement\IEmployee.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="EmployeeManagmentLibrary.IEmployeeFactory">
+    <Position X="6" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IEmployeeFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="EmployeeManagmentLibrary.EmployeeType">
+    <Position X="6" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAAACAAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EmployeeManagement\EmployeeType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
